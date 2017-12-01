@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denby.Common", "Denby.Common\Denby.Common.csproj", "{0B3E5C94-3316-4CA2-9DB5-290D587B3408}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9EB97B18-A43A-4985-BDFB-5750096BFAF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{B9FAA48C-AE0B-444E-8163-8ABD6DD240E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{436B8537-54F0-4E6C-A291-984F6B0861CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denby.Contracts", "Denby.Contracts\Denby.Contracts.csproj", "{F8D739F7-AC88-40E3-8805-C9BC97FDCC37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denby.MarsRover", "Denby.MarsRover\Denby.MarsRover.csproj", "{398A9EB5-8C49-4B3C-A098-9F1EC7785557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denby.MarsRover.Core", "Denby.MarsRover.Core\Denby.MarsRover.Core.csproj", "{099D07C9-4C45-4E73-B256-8570BEFBBF27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denby.MarsRover.Core.Tests.Integration", "Denby.MarsRover.Core.Tests.Integration\Denby.MarsRover.Core.Tests.Integration.csproj", "{36A6850C-E9B7-4B79-86DF-91C0ABDE4733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denby.Common.Tests.Unit", "Denby.Common.Tests.Unit\Denby.Common.Tests.Unit.csproj", "{3DE88928-FC93-4F78-AAB9-178B759438EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denby.MarsRover.Core.Tests.Unit", "Denby.MarsRover.Core.Tests.Unit\Denby.MarsRover.Core.Tests.Unit.csproj", "{90C10C87-54CB-48A7-AF0F-E3D9D102E8A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B3E5C94-3316-4CA2-9DB5-290D587B3408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3E5C94-3316-4CA2-9DB5-290D587B3408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3E5C94-3316-4CA2-9DB5-290D587B3408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3E5C94-3316-4CA2-9DB5-290D587B3408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D739F7-AC88-40E3-8805-C9BC97FDCC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D739F7-AC88-40E3-8805-C9BC97FDCC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D739F7-AC88-40E3-8805-C9BC97FDCC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D739F7-AC88-40E3-8805-C9BC97FDCC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398A9EB5-8C49-4B3C-A098-9F1EC7785557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398A9EB5-8C49-4B3C-A098-9F1EC7785557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398A9EB5-8C49-4B3C-A098-9F1EC7785557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398A9EB5-8C49-4B3C-A098-9F1EC7785557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099D07C9-4C45-4E73-B256-8570BEFBBF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099D07C9-4C45-4E73-B256-8570BEFBBF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099D07C9-4C45-4E73-B256-8570BEFBBF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099D07C9-4C45-4E73-B256-8570BEFBBF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A6850C-E9B7-4B79-86DF-91C0ABDE4733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A6850C-E9B7-4B79-86DF-91C0ABDE4733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A6850C-E9B7-4B79-86DF-91C0ABDE4733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A6850C-E9B7-4B79-86DF-91C0ABDE4733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE88928-FC93-4F78-AAB9-178B759438EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE88928-FC93-4F78-AAB9-178B759438EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE88928-FC93-4F78-AAB9-178B759438EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE88928-FC93-4F78-AAB9-178B759438EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C10C87-54CB-48A7-AF0F-E3D9D102E8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C10C87-54CB-48A7-AF0F-E3D9D102E8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C10C87-54CB-48A7-AF0F-E3D9D102E8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C10C87-54CB-48A7-AF0F-E3D9D102E8A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9FAA48C-AE0B-444E-8163-8ABD6DD240E6} = {9EB97B18-A43A-4985-BDFB-5750096BFAF6}
+		{436B8537-54F0-4E6C-A291-984F6B0861CE} = {9EB97B18-A43A-4985-BDFB-5750096BFAF6}
+		{36A6850C-E9B7-4B79-86DF-91C0ABDE4733} = {436B8537-54F0-4E6C-A291-984F6B0861CE}
+		{3DE88928-FC93-4F78-AAB9-178B759438EF} = {B9FAA48C-AE0B-444E-8163-8ABD6DD240E6}
+		{90C10C87-54CB-48A7-AF0F-E3D9D102E8A2} = {B9FAA48C-AE0B-444E-8163-8ABD6DD240E6}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.VersionControlPolicy = $2
+		description = c# based solution to the Mars rover test
+	EndGlobalSection
+EndGlobal
